@@ -6,22 +6,22 @@ class Firehose < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/treetopdevs/llm-firehose/releases/download/v0.2.0/firehose_0.2.0_darwin_arm64.tar.gz"
-      sha256 "95503b86faf7d903d2df8cbcf7c7e6512972991dc57b15b2658e4f5840ad6241"
+      url "https://github.com/treetopdevs/llm-firehose/releases/download/v0.2.1/firehose_0.2.1_darwin_arm64.tar.gz"
+      sha256 "a6b8e632052f060c451b415a204762fe8dca9c56de665f2c67f3abe923c272e4"
     end
     on_intel do
-      url "https://github.com/treetopdevs/llm-firehose/releases/download/v0.2.0/firehose_0.2.0_darwin_amd64.tar.gz"
-      sha256 "74c7ad2eec6a69cfccfa811d227412751e2816200f3f8237e09979d9fbba3ea4"
+      url "https://github.com/treetopdevs/llm-firehose/releases/download/v0.2.1/firehose_0.2.1_darwin_amd64.tar.gz"
+      sha256 "9441a3bb3ac2f9af1c618492c14f9c518b29f67db3cc2156fe3a3bc52437f229"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/treetopdevs/llm-firehose/releases/download/v0.2.0/firehose_0.2.0_linux_arm64.tar.gz"
-      sha256 "ca27b66c156e90e653ea93bcbc01259315338048dd7c5546d9cfd0b8806bfd96"
+      url "https://github.com/treetopdevs/llm-firehose/releases/download/v0.2.1/firehose_0.2.1_linux_arm64.tar.gz"
+      sha256 "af89594b634a45a11fe352be562c8678e7434c23d572161e8752c6401db35e3d"
     end
     on_intel do
-      url "https://github.com/treetopdevs/llm-firehose/releases/download/v0.2.0/firehose_0.2.0_linux_amd64.tar.gz"
-      sha256 "b8dc3291e28a36bc96a32491b2a5937fc39490e0c13c9be93431390add21673c"
+      url "https://github.com/treetopdevs/llm-firehose/releases/download/v0.2.1/firehose_0.2.1_linux_amd64.tar.gz"
+      sha256 "dc246ddeef5a8b377abe99cf7e3a85f7a0d22959d0bd868bfef9ad86e8f13b47"
     end
   end
 
